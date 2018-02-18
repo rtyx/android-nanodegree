@@ -1,6 +1,16 @@
 <resources>
     <string name="app_name">ui-project</string>
-    <string name="toledano">Toledano</string>
-    <string name="description">Toledano is a company located in Jaen.</string>
-    <string name="address">Pligono de los olivares</string>
+    <string name="toledano">toledano</string>
+    <string name="description">
+        Toledano es una empresa de referencia en las actividades de ingeniería, construcción y promoción inmobiliaria.
+    </string>
+    <string name="address">
+        Polígono Industrial “Los Olivares”,
+        Calle Begíjar nº3,
+        parcela 1, 23005, Jaén.
+        ESPAÑA
+    </string>
+    <string name="telephone">696 686 68 68</string>
+    <string name="email">hola@toledanoedifica.com</string>
+    <string name="hours">De lunes a viernes, de 8.30 a 14.00</string>
 </resources>
