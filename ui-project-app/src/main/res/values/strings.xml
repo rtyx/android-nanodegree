@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ui-project</string>
+    <string name="toledano">Toledano</string>
+    <string name="description">Toledano is a company located in Jaen.</string>
+    <string name="address">Pligono de los olivares</string>
+</resources>
