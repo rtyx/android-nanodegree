@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/rtyx/Documents/Code/android-nanodegree/ui-project-app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/rtyx/Documents/Code/android-nanodegree/ui-project-app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_69db0657d498e72873decc2b6f82f2cd2c8cc6b1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rtyx/Documents/Code/android-nanodegree/ui-project-app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c5036022c1b4377291b482b5de19f6b22d96fa0c">
+        <dex dex="/Users/rtyx/Documents/Code/android-nanodegree/ui-project-app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7b5b3001fb1d97b5cd0429f6d4d86d461b297d3a/classes.dex" />
+    </item>
+
+</items>
