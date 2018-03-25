@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="number_input">Number of questions (5 to 50)</string>
+    <string name="welcome_message">Welcome! You can choose the number of questions or start directly</string>
+    <string name="checkbox_text">Choose amount</string>
+    <string name="restart">Restart</string>
+    <string name="start">Start</string>
+</resources>

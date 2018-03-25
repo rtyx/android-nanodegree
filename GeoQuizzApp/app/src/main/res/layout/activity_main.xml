@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/app_title"
+            android:text="@string/app_name"
+            android:textSize="56sp"
+            android:textAlignment="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/questions_container"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/question_one"
+                android:text="@string/question_one"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/name_input"
+                android:hint="@string/your_name"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:layout_marginBottom="8dp"
+
+                android:id="@+id/question_two"
+                android:text="@string/question_two"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/knowledge_input">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="0dp"
+                    android:id="@+id/two_radio_yes"
+                    android:layout_weight="1"
+                    android:text="@string/yes"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="0dp"
+                    android:id="@+id/two_radio_no"
+                    android:layout_weight="1"
+                    android:text="@string/no"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/question_three"
+                android:text="@string/question_three"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/biggest_by_population_input">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="0dp"
+                    android:id="@+id/three_mexico_city"
+                    android:layout_weight="1"
+                    android:text="@string/mexico_city"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="0dp"
+                    android:id="@+id/three_radio_new_york"
+                    android:layout_weight="1"
+                    android:text="@string/new_york"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="0dp"
+                    android:id="@+id/three_radio_pietown"
+                    android:layout_weight="1"
+                    android:text="@string/pietown"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/question_four"
+                android:text="@string/question_four"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/biggest_by_surface_input">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/four_radio_los_angeles"
+                    android:text="@string/los_angeles"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/four_radio_berlin"
+                    android:text="@string/berlin"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="0dp"
+                    android:id="@+id/four_radio_the_vatican"
+                    android:layout_weight="1"
+                    android:text="@string/the_vatican"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/question_five"
+                android:text="@string/question_five"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:width="0dp"
+                    android:id="@+id/five_checkbox_france"
+                    android:text="@string/france"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:width="0dp"
+                    android:id="@+id/five_checkbox_texas"
+                    android:text="@string/texas"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:width="0dp"
+                    android:id="@+id/five_checkbox_hilton"
+                    android:text="@string/hilton"/>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onSubmit"
+                android:text="@string/submit"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/end_screen"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="16dp"
+                android:textSize="20sp"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/end_message"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/self_knowledge_comment"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onReset"
+                android:text="@string/reset"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

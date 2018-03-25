@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Geo Quizz</string>
+    <string name="question_one">1. Let\'s start by getting your name</string>
+    <string name="question_two">2. Cool. Do you think you know something about geography?</string>
+    <string name="question_three">3. What\'s the biggest city in the world by population?</string>
+    <string name="question_four">4. What about by surface?</string>
+    <string name="question_five">5. Paris is in...</string>
+    <string name="your_name">Your name</string>
+    <string name="yes">Yes</string>
+    <string name="no">Nope</string>
+    <string name="mexico_city">Mexico City</string>
+    <string name="new_york">New York</string>
+    <string name="pietown">Pietown, NM</string>
+    <string name="los_angeles">Los Ángeles</string>
+    <string name="berlin">Berlin</string>
+    <string name="the_vatican">The Vatican</string>
+    <string name="france">France</string>
+    <string name="texas">Texas</string>
+    <string name="hilton">Hilton</string>
+    <string name="submit">Submit</string>
+    <string name="win_message">Congratulations! It looks you actually know something about geography</string>
+    <string name="lose_message">Sorry! It looks like you need some Geography 101 course</string>
+    <string name="guess_lose_but_win">(even though you did not think so)</string>
+    <string name="guess_win_but_lose">(guess you were too sure)</string>
+    <string name="guess_lose_and_lose">(you kind of knew)</string>
+    <string name="guess_win_and_win">(you knew, don\'t be modest now)</string>
+    <string name="reset">Reset</string>
+</resources>
