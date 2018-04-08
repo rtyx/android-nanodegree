@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.example.android.archerycounter.ArcheryCounter">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="6dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="#616161"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Archer A" />
+
+            <TextView
+                android:id="@+id/team_a_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="56sp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="#000000"
+                android:gravity="center_horizontal"
+                android:text="0" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_button"
+                    android:layout_height="wrap_content"
+                    android:onClick="addOneForArcherA"
+                    android:layout_margin="3dp"
+                    android:text="+1" />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_button"
+                    android:layout_height="wrap_content"
+                    android:onClick="addTwoForArcherA"
+                    android:layout_margin="3dp"
+                    android:text="+2" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/black_button"
+                    android:textColor="#eeeeee"
+                    android:layout_margin="3dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="addThreeForArcherA"
+                    android:text="+3" />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/black_button"
+                    android:textColor="#eeeeee"
+                    android:layout_height="wrap_content"
+                    android:onClick="addFourForArcherA"
+                    android:text="+4" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/blue_button"
+                    android:textColor="#eeeeee"
+                    android:layout_margin="3dp"
+
+                    android:layout_height="wrap_content"
+                    android:onClick="addFiveForArcherA"
+                    android:text="+5" />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/blue_button"
+                    android:textColor="#eeeeee"
+                    android:layout_height="wrap_content"
+                    android:onClick="addSixForArcherA"
+                    android:text="+6" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/red_button"
+                    android:textColor="#eeeeee"
+                    android:layout_margin="3dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="addSevenForArcherA"
+                    android:text="+7" />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/red_button"
+                    android:textColor="#eeeeee"
+                    android:layout_height="wrap_content"
+                    android:onClick="addEightForArcherA"
+                    android:text="+8" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/yellow_button"
+                    android:layout_margin="3dp"
+
+                    android:layout_height="wrap_content"
+                    android:onClick="addNineForArcherA"
+                    android:text="+9" />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/yellow_button"
+                    android:layout_height="wrap_content"
+                    android:onClick="addTenForArcherA"
+                    android:text="+10" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray">
+        </View>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="6dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="#616161"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Archer B" />
+
+            <TextView
+                android:id="@+id/team_b_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="56sp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="#000000"
+                android:text="0" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_button"
+                    android:layout_height="wrap_content"
+                    android:onClick="addOneForArcherB"
+                    android:layout_margin="3dp"
+                    android:text="+1" />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_button"
+                    android:layout_height="wrap_content"
+                    android:onClick="addTwoForArcherB"
+                    android:layout_margin="3dp"
+                    android:text="+2" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/black_button"
+                    android:textColor="#eeeeee"
+                    android:layout_margin="3dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="addThreeForArcherB"
+                    android:text="+3" />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/black_button"
+                    android:textColor="#eeeeee"
+                    android:layout_height="wrap_content"
+                    android:onClick="addFourForArcherB"
+                    android:text="+4" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/blue_button"
+                    android:textColor="#eeeeee"
+                    android:layout_margin="3dp"
+
+                    android:layout_height="wrap_content"
+                    android:onClick="addFiveForArcherB"
+                    android:text="+5" />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/blue_button"
+                    android:textColor="#eeeeee"
+                    android:layout_height="wrap_content"
+                    android:onClick="addSixForArcherB"
+                    android:text="+6" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/red_button"
+                    android:textColor="#eeeeee"
+                    android:layout_margin="3dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="addSevenForArcherB"
+                    android:text="+7" />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/red_button"
+                    android:textColor="#eeeeee"
+                    android:layout_height="wrap_content"
+                    android:onClick="addEightForArcherB"
+                    android:text="+8" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/yellow_button"
+                    android:layout_margin="3dp"
+
+                    android:layout_height="wrap_content"
+                    android:onClick="addNineForArcherB"
+                    android:text="+9" />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/yellow_button"
+                    android:layout_height="wrap_content"
+                    android:onClick="addTenForArcherB"
+                    android:text="+10" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="resetScores"
+        android:text="@string/reset" />
+
+</RelativeLayout>
